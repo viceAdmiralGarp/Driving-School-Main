@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --blue-background: linear-gradient(to left,
+    rgba(49, 193, 219, 1),
+    rgba(48, 191, 218, 1),
+    rgba(44, 186, 218, 1),
+    rgba(49, 193, 218, 1),
+    rgba(17, 146, 215, 1),
+    rgba(18, 147, 215, 1),
+    rgba(26, 159, 216, 1),
+    rgba(21, 152, 216, 1),
+    rgba(17, 146, 215, 1));
+}
+
+.navbar {
+    background: #1192D7;
+}
+
+
+body {
+    background-color: #EEFDFF;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.hero {
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 130px;
+}
+
+.blue-background {
+    background: var(--blue-background);
+    align-items: center;
+    border-radius: 50px;
+    height: 650px;
+}
+
+.hero-text {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.hero-button {
+    background-color: var(--blue-background);
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    border: 10px solid white;
+}
+
+.hero-left-part {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 60%;
+    justify-content: space-between;
+}
+
+.selector {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.button-hero {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-img {
+    width: 80%;
+}
+
+.text-hero-paragraph {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.hero-bottom-part {
+    display: flex;
+}
+
+.hero-bottom-part-row0 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-bottom-part-row1 {
+    justify-content: space-between;
+}
+
+/* ABOUT US*/
+.about-us {
+    background-color: white;
+    border-radius: 67px;
+    margin-top: 130px;
+    display: flex;
+}
+
+.text-about-us {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 25px;
+}
+
+.blue {
+    color: #1192D7;
+}
+
+.img-about-us {
+    border-radius: 67px;
+}
+
+.about-us-wrap-img {
+    display: flex;
+    justify-content: center;
+}
+
+.circle-img{
+    border-radius: 40px;
+}
+
+/* ABOUT US*/
+
+/* CATEGORIES*/
+.categories-main-text {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 60px;
+    text-decoration: underline;
+    color: #1192D7;
+}
+
+.category-section {
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.categories-text {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+    background: var(--blue-background);
+    border-radius: 50%;
+}
+
+.img-A-category {
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.price-section {
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.price-text {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+}
+
+/* CATEGORIES*/

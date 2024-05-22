@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg fw-bold fixed-top">
+        <div class="container-fluid ">
+            <img src="./img/jpg/Remove-bg.ai_1712935644641.png" alt="logo">
+            <a class="navbar-brand fs-4" href="#">Grand Avtoshkola</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Price</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Comments</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Language
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Український</a></li>
+                            <li><a class="dropdown-item" href="#">Русский</a></li>
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container-fluid hero pt-5">
+    <div class="blue-background container-fluid d-flex p-0">
+        <div class="container hero-left-part">
+            <div class="hero-text container selector text-uppercase">
+                One click and<br>
+                the car license<br>
+                are in your pocket
+            </div>
+            <div class="container button-hero">
+                <button type="button" class="btn btn-light hero-button">Sign up for a course</button>
+            </div>
+        </div>
+        <div class="container hero-img-container p-0">
+            <img src="./img/jpg/5-audi-png-car-image_1-removebg.png" class="img-fluid hero-img p-0" alt="...">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col">
+                <div class="hero-paragraph d-flex mt-5">
+                    <img src="./img/jpg/Group%206.jpg" alt="first-paragraph-img">
+                    <p class="text-hero-paragraph">Qualified instructors</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="hero-paragraph d-flex mt-5">
+                    <img src="./img/jpg/Group%207.jpg" alt="first-paragraph-img">
+                    <p class="text-hero-paragraph">Flexible training schedule</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="hero-paragraph d-flex mt-5">
+                    <img src="./img/jpg/Group%2012.jpg" alt="first-paragraph-img">
+                    <p class="text-hero-paragraph">Help in preparing for exams</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="hero-paragraph d-flex mt-5">
+                    <img src="./img/jpg/Group%205.jpg" alt="first-paragraph-img">
+                    <p class="text-hero-paragraph">Modern educational materials</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="hero-paragraph d-flex mt-5">
+                    <img src="./img/jpg/Group%204.jpg" alt="first-paragraph-img">
+                    <p class="text-hero-paragraph">Modernized vehicle fleet</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="hero-paragraph d-flex mt-5">
+                    <img src="./img/jpg/Group%2014.jpg" alt="first-paragraph-img">
+                    <p class="text-hero-paragraph">Competitive prices</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container about-us">
+    <div class="row">
+        <div class="col-xxl-5 col-sm-12">
+            <div>
+                <p class="fw-bold text-about-us text-center pt-5"><span class="fw-bold">ABOUT <span
+                        class="blue">US</span></span>
+                    <br><br>We are glad to welcome you to the website of the driving school in Dnipro <span
+                            class="blue">“Grand”</span>.
+                    <br><br>With us you will learn how to <span class="blue">efficiently drive</span> a car with a
+                    manual or
+                    automatic transmission.
+                    <br><br>Our <span class="blue">driving instructors</span> will help you pass the traffic police exam
+                    and
+                    obtain
+                    licenses of categories <span class="blue">A,
+            B, C, D, E</span>. Driving courses are held in the city center and on the left bank within walking distance
+                    from
+                    any transport.
+                    <br><br>You can also choose a convenient time to attend theoretical classes at our <span
+                            class="blue">driving school</span>.
+                </p></div>
+            <img src="./img/jpg/Group%2037%20(1).jpg" class="img-fluid circle-img" alt="">
+        </div>
+        <div class="col-xxl-7 col-sm-12 mx-auto about-us-wrap-img">
+            <img src="./img/jpg/2024-honda-prologue-elite-1%201.jpg" class="img-fluid img-about-us" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="container pt-5">
+    <div class="row categories-main-text fw-bold">
+        <div class="col-md-9">
+            <p>CATEGORIES</p>
+        </div>
+        <div class="col-md-3">
+            <p>PRICE</p>
+        </div>
+    </div>
+    <div class="row category-price-marker">
+        <div class="col-md-5">
+            <div class="A-category">
+                <div class="category-section">
+                    <p class="categories-text fw-bold">A1 (RETRAINING)</p>
+                    <div class="circle"></div>
+                </div>
+
+                <div class="category-section">
+                    <p class="categories-text fw-bold">A (RETRAINING)</p>
+                    <div class="circle"></div>
+                </div>
+
+                <div class="category-section">
+                    <p class="categories-text fw-bold">A1/A</p>
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <img src="./img/jpg/moto%20logo.jpg" class="img-fluid img-A-category" alt="">
+        </div>
+
+        <div class="col-md-2">
+            <div class="A-price">
+                <div class="price-section">
+                    <div class="circle"></div>
+                    <p class="price-text fw-bold">899 UAH</p>
+                </div>
+
+                <div class="price-section">
+                    <div class="circle"></div>
+                    <p class="price-text fw-bold">FROM 1000 UAH</p>
+                </div>
+
+                <div class="price-section">
+                    <div class="circle"></div>
+                    <p class="price-text fw-bold">FROM 2500 UAH</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="./js/test.js" type="text/babel"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+</html>
