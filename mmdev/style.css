@@ -136,8 +136,9 @@ body {
 .circle-img{
     border-radius: 40px;
 }
-
 /* ABOUT US*/
+
+
 
 /* CATEGORIES*/
 .categories-main-text {
@@ -156,6 +157,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    align-items: center;
 }
 
 .categories-text {
@@ -176,6 +178,11 @@ body {
     margin-top: 20px;
 }
 
+.img-B-category{
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
 .price-section {
     width: 250px;
     height: 55px;
@@ -183,6 +190,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    align-items: center;
 }
 
 .price-text {
@@ -190,4 +198,39 @@ body {
     font-size: 30px;
 }
 
+.category-section-custom{
+    width: 100%;
+    height: 100%;
+    background-color: #EEFDFF;
+}
 /* CATEGORIES*/
+
+
+/* OUR CARS*/
+.our-cars{
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    background-image: url('./img/jpg/Group 39.jpg');
+    background-size: cover; /* This property ensures that the background image covers the entire div */
+    background-position: center;
+}
+
+.row-cars{
+   display: flex;
+}
+
+.slide-car{
+    height: 400px;
+    width: 300px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.text-cars{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
