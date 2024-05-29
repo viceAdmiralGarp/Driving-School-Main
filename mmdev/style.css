@@ -254,17 +254,38 @@ body {
     height: 900px;
     background-color: white;
     border-radius: 50px;
+    background-image: url('./img/jpg/Group 29 (2).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .map_wrapper {
-    width: 1124px;
-    height: 800px;
     background-color: #EEFDFF;
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 55px;
+    height: 750px;
+    width: 900px;
 }
 
-#map {
-    width: 600px;
-    height: 400px;
-    margin-top: 20px;
+.map-text {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 60px;
+    text-decoration: underline;
 }
+
+.map-container{
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    width: 200px; /* Example width */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
