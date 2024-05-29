@@ -1,0 +1,66 @@
+//Dnepr
+const center = `<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2645.422710107062!2d35.04672!3d48.467605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2e87ca8ba8d%3A0xd8c6be35783a8812!2z0LLRg9C70LjRhtGPINCS0L7Qu9C-0LTQuNC80LjRgNCwINCc0L7QvdC-0LzQsNGF0LAsIDYsINC-0YQuIDMyNCwgMyDRjdGC0LDQtiwg0JTQvdGW0L_RgNC-LCDQlNC90ZbQv9GA0L7Qv9C10YLRgNC-0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNDkwMDA!5e0!3m2!1sru!2sua!4v1716976339797!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>`
+const western = `<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2645.776222204101!2d34.939651!3d48.460823!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe3ef87e851ab%3A0x23613edcbb922f19!2z0LYv0Lwg0JfQsNGF0ZbQtNC90LjQuQ!5e0!3m2!1suk!2sua!4v1716976455744!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+const klochko = `<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2642.4366569857098!2d35.045511!3d48.524863!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d958c07cde6ced%3A0x553393411435fc56!2z0LYv0Lwg0JrQu9C-0YfQutC-LTY!5e0!3m2!1suk!2sua!4v1716976532955!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+
+//Kamenskoe
+const arsenivecha = `<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2642.5786713560874!2d34.612888!3d48.522141!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbdbaee372e4eb%3A0x711fd0b18637990a!2z0LLRg9C70LjRhtGPINCb0Y7QsdCw0LLQuNGH0YHRjNC60L7Qs9C-INCg0LXQsdC1LCAzLCDQmtCw0LzigJnRj9C90YHRjNC60LUsINCU0L3RltC_0YDQvtC_0LXRgtGA0L7QstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA1MTkwOQ!5e0!3m2!1suk!2sua!4v1716976573726!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+const heroes = `<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2638.0774363698342!2d34.569848!3d48.608361!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbd71b2c2de05b%3A0x7c5546a4d2a0efdb!2z0LHRg9C70YzQstCw0YAg0JPQtdGA0L7Rl9CyLCA0Miwg0JrQsNC84oCZ0Y_QvdGB0YzQutC1LCDQlNC90ZbQv9GA0L7Qv9C10YLRgNC-0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNTE5MDk!5e0!3m2!1suk!2sua!4v1716976645045!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+const ato = `<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2638.77389490277!2d34.563351!3d48.595028!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbd73c66f566dd%3A0xaf412da86009a3d2!2z0L_RgNC-0YHQv9C10LrRgiDQk9C10YDQvtGX0LIg0JDQotCeLCAyLCDQmtCw0LzigJnRj9C90YHRjNC60LUsINCU0L3RltC_0YDQvtC_0LXRgtGA0L7QstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA1MTkzNw!5e0!3m2!1suk!2sua!4v1716976686411!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+const peremoga =  `<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2638.743548940903!2d34.56045!3d48.595609!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbd73cbd201439%3A0x43a8ed2b8386e8f8!2z0L_RgNC-0YHQv9C10LrRgiDQn9C10YDQtdC80L7Qs9C4LCAxMCwg0JrQsNC84oCZ0Y_QvdGB0YzQutC1LCDQlNC90ZbQv9GA0L7Qv9C10YLRgNC-0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNTE5MDk!5e0!3m2!1suk!2sua!4v1716976720560!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+
+var mapContainer = document.getElementById('map-container');
+mapContainer.innerHTML = center
+
+function mainSelector(select) {
+    var subSelect = document.getElementById('sub-select');
+    var mapContainer = document.getElementById('map-container');
+    subSelect.innerHTML = '';
+
+    if (select.value === 'dnepr') {
+        var option1 = new Option('Dnipro Center', '0');
+        var option2 = new Option('r/a Western', '1');
+        var option3 = new Option('r/a Klochko', '2');
+        subSelect.add(option1);
+        subSelect.add(option2);
+        subSelect.add(option3);
+        mapContainer.innerHTML = center
+    } else if (select.value === 'kamianske') {
+        var option1 = new Option('Street. Lyubavichskogo Rebe (Arsenicheva) 3 office 5', '3');
+        var option2 = new Option('3 microdistrict Heroiv 42-82 (TC Dolya)', '4');
+        var option3 = new Option('11 microdistrict Avenue Heroiv ATO, 2', '5');
+        var option4 = new Option('10 microdistrict (new class) Avenue Peremohy, 57', '6');
+        subSelect.add(option1);
+        subSelect.add(option2);
+        subSelect.add(option3);
+        subSelect.add(option4);
+        mapContainer.innerHTML = arsenivecha
+    }
+}
+
+function subSelector(select) {
+    var mapContainer = document.getElementById('map-container');
+    switch (select.value) {
+        case '0':
+            mapContainer.innerHTML = center
+            break;
+        case '1':
+            mapContainer.innerHTML = western
+            break;
+        case '2':
+            mapContainer.innerHTML = klochko
+            break;
+        case '3':
+            mapContainer.innerHTML = arsenivecha
+            break;
+        case '4':
+            mapContainer.innerHTML = heroes
+            break;
+        case '5':
+            mapContainer.innerHTML = ato
+            break;
+        case '6':
+            mapContainer.innerHTML = peremoga
+            break;
+    }
+}

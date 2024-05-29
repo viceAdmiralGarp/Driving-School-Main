@@ -133,11 +133,11 @@ body {
     justify-content: center;
 }
 
-.circle-img{
+.circle-img {
     border-radius: 40px;
 }
-/* ABOUT US*/
 
+/* ABOUT US*/
 
 
 /* CATEGORIES*/
@@ -178,7 +178,7 @@ body {
     margin-top: 20px;
 }
 
-.img-B-category{
+.img-B-category {
     border-radius: 50%;
     margin-left: 20px;
 }
@@ -198,16 +198,17 @@ body {
     font-size: 30px;
 }
 
-.category-section-custom{
+.category-section-custom {
     width: 100%;
     height: 100%;
     background-color: #EEFDFF;
 }
+
 /* CATEGORIES*/
 
 
 /* OUR CARS*/
-.our-cars{
+.our-cars {
     margin-top: 100px;
     width: 100%;
     height: 100%;
@@ -216,11 +217,11 @@ body {
     background-position: center;
 }
 
-.row-cars{
-   display: flex;
+.row-cars {
+    display: flex;
 }
 
-.slide-car{
+.slide-car {
     height: 400px;
     width: 300px;
     background: white;
@@ -229,8 +230,41 @@ body {
     justify-content: space-evenly;
 }
 
-.text-cars{
+.text-cars {
     font-family: 'Saira Condensed', sans-serif;
     font-size: 30px;
     font-weight: bold;
+}
+
+.our-cars-main-text {
+    background-color: white;
+    font-family: 'Saira Stencil One';
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+/* OUR CARS*/
+
+
+/* MAP */
+.map-section {
+    margin-top: 50px;
+    height: 900px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.map_wrapper {
+    width: 1124px;
+    height: 800px;
+    background-color: #EEFDFF;
+
+}
+
+#map {
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
 }
