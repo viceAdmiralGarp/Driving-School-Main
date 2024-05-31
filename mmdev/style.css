@@ -276,7 +276,7 @@ body {
     text-decoration: underline;
 }
 
-.map-container{
+.map-container {
     display: flex;
     justify-content: center;
 }
@@ -288,4 +288,34 @@ select {
     border-radius: 5px;
     font-size: 14px;
 }
+
+/* MAP */
+
+/*COMMENTS*/
+.comment {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.user-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-button {
+    background-color: #1598D8;
+    width: 350px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Saira Condensed', sans-serif;
+    border-radius: 43px;
+    font-weight: bold;
+}
+
+/*COMMENTS*/
 
