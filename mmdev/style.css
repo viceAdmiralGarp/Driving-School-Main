@@ -288,7 +288,6 @@ select {
     border-radius: 5px;
     font-size: 14px;
 }
-
 /* MAP */
 
 /*COMMENTS*/
@@ -297,6 +296,11 @@ select {
     height: 300px;
     background-color: white;
     border-radius: 20px;
+    margin: 5px;
+    overflow: hidden;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 .user-data {
@@ -317,5 +321,22 @@ select {
     font-weight: bold;
 }
 
+.comment-wrapper {
+    display: flex;
+    justify-content: center; /* Центрирует комментарии внутри контейнера */
+}
+
+.comment {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.comment.fade-in {
+    opacity: 1;
+}
+
+.comment.fade-out {
+    opacity: 0;
+}
 /*COMMENTS*/
 
