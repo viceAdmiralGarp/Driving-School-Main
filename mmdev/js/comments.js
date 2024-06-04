@@ -93,7 +93,6 @@ function fetchFeedback() {
                 feedbackList.append(feedbackItem);
             });
 
-            // Анимация добавления комментариев
             setTimeout(() => {
                 $('.comment').addClass('fade-in');
             }, 10);

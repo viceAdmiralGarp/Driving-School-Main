@@ -86,12 +86,18 @@ body {
     width: 80%;
 }
 
+.hero-paragraph {
+    display: flex;
+}
+
 .text-hero-paragraph {
     font-family: 'Saira Condensed', sans-serif;
     font-size: 20px;
     font-weight: bold;
     display: flex;
     align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
 }
 
 .hero-bottom-part {
@@ -288,6 +294,7 @@ select {
     border-radius: 5px;
     font-size: 14px;
 }
+
 /* MAP */
 
 /*COMMENTS*/
@@ -306,6 +313,25 @@ select {
 .user-data {
     display: flex;
     flex-direction: column;
+
+}
+
+.user-name {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.message {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.publish-date{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
 }
 
 .comment-button {
@@ -338,5 +364,6 @@ select {
 .comment.fade-out {
     opacity: 0;
 }
+
 /*COMMENTS*/
 
