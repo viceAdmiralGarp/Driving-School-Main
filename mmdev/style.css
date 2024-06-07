@@ -142,7 +142,6 @@ body {
 .circle-img {
     border-radius: 40px;
 }
-
 /* ABOUT US*/
 
 
@@ -209,7 +208,6 @@ body {
     height: 100%;
     background-color: #EEFDFF;
 }
-
 /* CATEGORIES*/
 
 
@@ -288,7 +286,7 @@ body {
 }
 
 select {
-    width: 200px; /* Example width */
+    width: 200px;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -349,7 +347,7 @@ select {
 
 .comment-wrapper {
     display: flex;
-    justify-content: center; /* Центрирует комментарии внутри контейнера */
+    justify-content: center;
 }
 
 .comment {
@@ -364,6 +362,60 @@ select {
 .comment.fade-out {
     opacity: 0;
 }
-
 /*COMMENTS*/
+
+
+/*REGISTRATION*/
+.registration-section{
+    height: 700px;
+    background-color: white;
+    border-radius: 40px;
+    background-image: url('./img/jpg/pasted-image-0-1000x666 1.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-text{
+    border-radius: 40px;
+    background-color: #1395D8;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    height: 70px;
+    width: 550px;
+}
+
+.registration-form{
+    background-color: #1395D8;
+    height: 450px;
+    width: 400px;
+    border-radius: 20px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-registration{
+    border-radius: 20px;
+    width: 200px;
+    color: #1395D8;
+    font-weight: bold;
+    border: none;
+}
+
+.button-registration:hover {
+    background-color: #EEFDFF;
+}
+
+.registration-input{
+    border-radius: 20px;
+}
+
 
