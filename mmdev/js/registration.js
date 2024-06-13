@@ -11,12 +11,13 @@ $(document).ready(function(){
             email: email,
             phone: phone
         };
+        console.log(formData)
 
         $.ajax({
             type: 'POST',
             url: 'http://localhost:8080/register',
-            data: formData,
-            dataType: 'json',
+            data: JSON.stringify(formData),
+            contentType: 'application/json',
             success: function(response){
                 console.log(response);
                 alert('Регистрация успешна!');

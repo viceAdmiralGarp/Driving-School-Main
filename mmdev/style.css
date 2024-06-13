@@ -142,6 +142,7 @@ body {
 .circle-img {
     border-radius: 40px;
 }
+
 /* ABOUT US*/
 
 
@@ -208,6 +209,7 @@ body {
     height: 100%;
     background-color: #EEFDFF;
 }
+
 /* CATEGORIES*/
 
 
@@ -326,7 +328,7 @@ select {
     font-weight: bold;
 }
 
-.publish-date{
+.publish-date {
     font-family: 'Saira Condensed', sans-serif;
     font-weight: bold;
     padding-left: 20px;
@@ -362,23 +364,25 @@ select {
 .comment.fade-out {
     opacity: 0;
 }
+
 /*COMMENTS*/
 
 
 /*REGISTRATION*/
-.registration-section{
+.registration-section {
     height: 700px;
     background-color: white;
     border-radius: 40px;
     background-image: url('./img/jpg/pasted-image-0-1000x666 1.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
 }
 
-.registration-text{
+.registration-text {
     border-radius: 40px;
     background-color: #1395D8;
     font-family: 'Saira Condensed', sans-serif;
@@ -389,7 +393,7 @@ select {
     width: 550px;
 }
 
-.registration-form{
+.registration-form {
     background-color: #1395D8;
     height: 450px;
     width: 400px;
@@ -402,7 +406,7 @@ select {
     align-items: center;
 }
 
-.button-registration{
+.button-registration {
     border-radius: 20px;
     width: 200px;
     color: #1395D8;
@@ -414,8 +418,24 @@ select {
     background-color: #EEFDFF;
 }
 
-.registration-input{
+.registration-input {
+    border-radius: 20px;
+}
+/*REGISTRATION*/
+
+/*CAROUSEL*/
+.carousel-background {
+    background-image: url('./img/jpg/Group 29 (2).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+.carousel-sub-container{
+    background-color: #0543BC;
     border-radius: 20px;
 }
 
 
+/*CAROUSEL*/
