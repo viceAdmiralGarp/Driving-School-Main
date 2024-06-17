@@ -136,7 +136,8 @@
             <div>
                 <p class="fw-bold text-about-us text-center pt-5"><span class="fw-bold" data-key="about_us_main_text">ABOUT <span
                         class="blue">US</span></span>
-                    <span data-key="about_us_sub_text1"><br><br>We are glad to welcome you to the website of the driving school in Dnipro <span class="blue">“Grand”</span>.
+                    <span data-key="about_us_sub_text1"><br><br>We are glad to welcome you to the website of the driving school in Dnipro <span
+                            class="blue">“Grand”</span>.
                     <br><br>With us you will learn how to <span class="blue">efficiently drive</span> a car with a
                     manual or
                     automatic transmission.
@@ -148,7 +149,7 @@
                     from
                     any transport.
                     <br><br>You can also choose a convenient time to attend theoretical classes at our <span
-                            class="blue">driving school</span>.</span>
+                                class="blue">driving school</span>.</span>
                 </p></div>
             <img src="./img/jpg/Group%2037%20(1).jpg" class="img-fluid circle-img" alt="">
         </div>
@@ -197,17 +198,17 @@
             <div class="A-price">
                 <div class="price-section">
                     <div class="circle"></div>
-                    <p class="price-text fw-bold" data-key="U899">899 UAH</p>
+                    <p class="price-text fw-bold">899 UAH</p> <!-- data-key="U899" -->
                 </div>
 
                 <div class="price-section">
                     <div class="circle"></div>
-                    <p class="price-text fw-bold" data-key="F1000">FROM 1000 UAH</p>
+                    <p class="price-text fw-bold A1ret" ></p> <!--data-key="F1000"-->
                 </div>
 
                 <div class="price-section">
                     <div class="circle"></div>
-                    <p class="price-text fw-bold" data-key="F2500">FROM 2500 UAH</p>
+                    <p class="price-text fw-bold">FROM 2500 UAH</p> <!-- data-key="F2500" -->
                 </div>
             </div>
         </div>
@@ -236,12 +237,12 @@
             <div class="B-price">
                 <div class="price-section">
                     <div class="circle"></div>
-                    <p class="price-text fw-bold" data-key="F1700">FROM 1700 UAH</p>
+                    <p class="price-text fw-bold">FROM 1700 UAH</p> <!-- data-key="F1700"-->
                 </div>
 
                 <div class="price-section">
                     <div class="circle"></div>
-                    <p class="price-text fw-bold" data-key="F4000">FROM 4000 UAH</p>
+                    <p class="price-text fw-bold">FROM 4000 UAH</p> <!--data-key="F4000"-->
                 </div>
             </div>
         </div>
@@ -272,7 +273,7 @@
 
                 <div class="price-section">
                     <div class="circle"></div>
-                    <p class="price-text fw-bold" data-key="F3900">FROM 3900 UAH</p>
+                    <p class="price-text fw-bold">FROM 3900 UAH</p> <!-- data-key="F3900" -->
                 </div>
 
                 <div class="category-section-custom"></div>
@@ -305,7 +306,7 @@
 
                 <div class="price-section">
                     <div class="circle"></div>
-                    <p class="price-text fw-bold" data-key="F4300">FROM 4300 UAH</p>
+                    <p class="price-text fw-bold">FROM 4300 UAH</p> <!-- data-key="F4300" -->
                 </div>
 
                 <div class="category-section-custom"></div>
@@ -337,12 +338,12 @@
             <div class="B-price">
                 <div class="price-section">
                     <div class="circle"></div>
-                    <p class="price-text fw-bold" data-key="F4300">FROM 4300 UAH</p>
+                    <p class="price-text fw-bold">FROM 4300 UAH</p> <!-- data-key="F4300"-->
                 </div>
 
                 <div class="price-section">
                     <div class="circle"></div>
-                    <p class="price-text fw-bold" data-key="F2500">FROM 2500 UAH</p>
+                    <p class="price-text fw-bold">FROM 2500 UAH</p> <!-- data-key="F2500" -->
                 </div>
             </div>
         </div>
@@ -418,11 +419,11 @@
 
 <!-- COMMENTS -->
 <div class="container mt-5" id="comments">
-    <h2 class="text-center" data-key="comments" >Comments</h2>
+    <h2 class="text-center" data-key="comments">Comments</h2>
     <div class="comment-wrapper" id="feedbackList"></div>
     <div class="pagination-controls text-center mt-3">
         <button class="prev-button btn btn-secondary" type="button" data-key="previous">&laquo; Previous</button>
-        <button class="next-button btn btn-secondary" type="button"  data-key="next">Next &raquo;</button>
+        <button class="next-button btn btn-secondary" type="button" data-key="next">Next &raquo;</button>
     </div>
 </div>
 
@@ -450,8 +451,11 @@
                         <textarea class="form-control" id="message" rows="3" required maxlength="148"></textarea>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-key="cancel">Cancel</button>
-                        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal" data-key="submit">Submit</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-key="cancel">
+                            Cancel
+                        </button>
+                        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal" data-key="submit">Submit
+                        </button>
                     </div>
                 </form>
             </div>
@@ -479,7 +483,7 @@
     <form action="/register" method="POST" class="registration-form" id="registration-form">
         <div class="form-group">
             <label for="fullname" data-key="fullname">Full Name:</label><br>
-            <input type="text" id="fullname" name="fullname" required class="registration-input" >
+            <input type="text" id="fullname" name="fullname" required class="registration-input">
         </div>
         <div class="form-group">
             <label for="email">Email:</label><br>
@@ -487,7 +491,7 @@
         </div>
         <div class="form-group">
             <label for="phone" data-key="phone">Phone Number:</label><br>
-            <input type="tel" id="phone" name="phone" required class="registration-input" >
+            <input type="tel" id="phone" name="phone" required class="registration-input">
         </div>
         <br>
         <button type="submit" class="button-registration" data-key="submit">Register</button>
@@ -541,21 +545,22 @@
             </div>
             <div class="container right-part">
                 <h2 data-key="contacts">Contacts</h2>
-                <p class="contact-subtext" data-key="desc_cont">For detailed information about graphics classes, training opportunities and
+                <p class="contact-subtext" data-key="desc_cont">For detailed information about graphics classes,
+                    training opportunities and
                     graphics recruitment at the driving school, you can
                     get to know the phones:</p>
-                <h4>Dnipro Center:</h4>
+                <h4 data-key="dc">Dnipro Center:</h4>
                 <ul class="contacts__list">
                     <li class="contacts__item"><a href="tel:+0935444127">(093) 544-41-27</a></li>
                     <li class="contacts__item"><a href="tel:+0506300963">(093) 544-41-27</a></li>
                     <li class="contacts__item"><a href="tel:+0673671000">(093) 544-41-27</a></li>
                 </ul>
-                <h4>r/a Western</h4>
+                <h4 data-key="raw">r/a Western</h4>
                 <ul class="contacts__list">
                     <li class="contacts__item"><a href="tel:+05003162227">(050) 031-6-222</a></li>
                     <li class="contacts__item"><a href="tel:+0673671000">(067) 367-1000</a></li>
                 </ul>
-                <h4>r/a Klochko</h4>
+                <h4 data-key="rak">r/a Klochko</h4>
                 <ul class="contacts__list">
                     <li class="contacts__item"><a href="tel:+0667817008">(066)-781-70-08</a></li>
                     <li class="contacts__item"><a href="tel:+0673671000">(067) 367-1000</a></li>
@@ -569,6 +574,7 @@
 <script src="js/registration.js"></script>
 <script src="js/comments.js"></script>
 <script src="js/languages.js"></script>
+<script src="js/price.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>

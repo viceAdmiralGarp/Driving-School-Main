@@ -33,7 +33,7 @@ const translations = {
         price_k: "PRICE",
         a1_r:"A1 (RETRAINING)",
         a_r:"A (RETRAINING)",
-        F1000:"FROM 1000 UAH",
+        F1000:"FROM <span id=\A1ret\" class=\"A1ret\"></span> UAH",
         F2500:"FROM 2500 UAH",
         U899:"899 UAH",
         b_r:"B (RETRAINING)",
@@ -59,6 +59,9 @@ const translations = {
         desc_cont:"For detailed information about graphics classes, training opportunities and\n" +
             "                    graphics recruitment at the driving school, you can\n" +
             "                    get to know the phones:",
+        dc:"Dnipro Center:",
+        raw:"r/a Western",
+        rak:"r/a Klochko",
 
     },
     ru: {
@@ -94,7 +97,7 @@ const translations = {
         price_k: "ЦЕНА",
         a1_r:"A1 (Переподг.)",
         a_r:"A (Переподг)",
-        F1000:"от 1000 грн",
+        F1000:"от <span id=\A1ret\" class=\"A1ret\"></span> грн",
         F2500:"от 2500 грн",
         U899:"899 грн",
         b_r:"B (Переподг.)",
@@ -118,6 +121,10 @@ const translations = {
         fullname:"Имя и фамилия",
         phone:"Номер телефона",
         desc_cont:"Подробную информацию о занятиях графикой, возможностях обучения и наборе графики в автошколу вы можете узнать по телефонам:",
+        dc:"Днепр Центр:",
+        raw:"ж/м Западный",
+        rak:"ж/м Клочко",
+
     },
     ua: {
         about_us: "Про нас",
@@ -152,7 +159,7 @@ const translations = {
         price_k: "ЦІНА",
         a1_r:"A1 (Перепідг.)",
         a_r:"A (Перепідг.)",
-        F1000:"від 1000 грн",
+        F1000:"від  грн",
         F2500:"від 2500 грн",
         U899:"899 грн",
         b_r:"B (Перепідг.)",
@@ -176,6 +183,9 @@ const translations = {
         fullname:"Прізвище та ім'я",
         phone:"Номер телефона",
         desc_cont:"Детальну інформацію про курси графіки, можливості навчання та набір графіків в автошколі можна отримати за телефонами:",
+        dc:"Дніпро Центр:",
+        raw:"ж/м Західний",
+        rak:"ж/м Клочко",
     }
 }
 
