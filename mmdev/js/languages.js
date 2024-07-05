@@ -11,6 +11,7 @@ const translations = {
         hero_text: "One click and<br>the car license<br>are in your pocket",
         button_sing_up: "Sign up for a course",
         q_i: "Qualified instructors",
+        f_t_s: "Flexible training schedule",
         h_f_e: "Help in preparing for exams",
         m_e_m: "Modern educational materials",
         m_v_f: "Modernized vehicle fleet",
