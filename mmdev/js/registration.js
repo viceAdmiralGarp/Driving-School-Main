@@ -7,15 +7,15 @@ $(document).ready(function(){
         var phone = $('.registration-input[name="phone"]').val();
 
         var formData = {
-            fullname: fullname,
+            fullName: fullname,
             email: email,
-            phone: phone
+            phoneNumber: phone
         };
         console.log(formData)
 
         $.ajax({
-            type: 'POST',
-            url: 'http://localhost:8080/register',
+            method: 'POST',
+            url: 'https://grand-school-d7e43eab69dc.herokuapp.com/register',
             data: JSON.stringify(formData),
             contentType: 'application/json',
             success: function(response){

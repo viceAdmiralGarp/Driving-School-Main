@@ -1,4 +1,4 @@
-const apiUrl = 'http://localhost:8080/api/feedback';
+const apiUrl = 'https://grand-school-d7e43eab69dc.herokuapp.com/comments';
 let currentPage = 1;
 let commentsPerPage = 5;
 
@@ -16,7 +16,7 @@ $(document).ready(function () {
             url: apiUrl,
             method: 'POST',
             contentType: 'application/json',
-            data: JSON.stringify({ name: name, message: message }),
+            data: JSON.stringify({ author: name, comment: message, date: new Date()}),
             success: function () {
                 $('#name').val('');
                 $('#message').val('');
@@ -74,7 +74,7 @@ function fetchFeedback() {
             const paginatedData = data.slice(start, end);
 
             paginatedData.forEach(function (feedback) {
-                const date = new Date(feedback.createdAt);
+                const date = new Date(feedback.date);
                 const formattedDate = `${date.getDate()}.${date.getMonth() + 1}.${date.getFullYear()}`;
 
                 const feedbackItem = `      
@@ -82,12 +82,12 @@ function fetchFeedback() {
                         <div class="d-flex">
                              <img src="./img/jpg/user2.jpg" alt="">
                             <div class="user-data">
-                                <p class="user-name">${feedback.name}</p>
+                                <p class="user-name">${feedback.author}</p>
                                 <p class="publish-date">${formattedDate}</p>
                             </div>
                         </div>
                         <div class="message">
-                            <p>${feedback.message}</p>
+                            <p>${feedback.comment}</p>
                         </div>
                     </div>`;
                 feedbackList.append(feedbackItem);
