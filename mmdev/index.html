@@ -260,6 +260,11 @@
                     <div class="circle"></div>
                 </div>
 
+                <div class="category-section">
+                    <p class="categories-text fw-bold">C1E</p>
+                    <div class="circle"></div>
+                </div>
+
                 <div class="category-section-custom"></div>
             </div>
         </div>
@@ -275,6 +280,10 @@
                 <div class="price-section">
                     <div class="circle"></div>
                     <p class="price-text fw-bold" id="C_C1_price">FROM 3900 UAH</p> <!-- data-key="F3900" -->
+                </div>
+                <div class="price-section">
+                    <div class="circle"></div>
+                    <p class="price-text fw-bold" id="###">###</p>
                 </div>
 
                 <div class="category-section-custom"></div>
@@ -401,16 +410,16 @@
     <div class="container-lg map_wrapper">
         <label for="main-select"><br>
             <select id="main-select" onchange="mainSelector(this)"> <br>
-                <option id="ms-1" value="dnepr">Dnipro</option>
-                <option id="ms-2" value="kamianske">Kamianske</option>
+                <option id="ms-1" value="dnepr" data-key="dnepr" >Dnipro</option>
+                <option id="ms-2" value="kamianske" data-key="kam">Kamianske</option>
             </select>
         </label>
         <br>
         <label for="sub-select">
             <select id="sub-select" onchange="subSelector(this)">
-                <option id="ss-1" value="0">Dnipro Center</option>
-                <option id="ss-2" value="1">r/a Western</option>
-                <option id="ss-3" value="2">r/a Klochko</option>
+                <option id="ss-1" value="0" data-key="dc">Dnipro Center</option>
+                <option id="ss-2" value="1" data-key="raw">r/a Western</option>
+                <option id="ss-3" value="2" data-key="rak">r/a Klochko</option>
             </select>
         </label>
         <br>

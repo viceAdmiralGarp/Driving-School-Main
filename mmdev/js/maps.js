@@ -18,18 +18,25 @@ function mainSelector(select) {
     subSelect.innerHTML = '';
 
     if (select.value === 'dnepr') {
-        var option1 = new Option('Dnipro Center', '0');
-        var option2 = new Option('r/a Western', '1');
-        var option3 = new Option('r/a Klochko', '2');
+        var option1 = new Option('Дніпро Центр', '0');
+        option1.setAttribute('data-key', 'dc');
+        var option2 = new Option('ж/м Західний', '1');
+        option2.setAttribute('data-key', 'raw');
+        var option3 = new Option('ж/м Клочко', '2');
+        option3.setAttribute('data-key', 'rak');
         subSelect.add(option1);
         subSelect.add(option2);
         subSelect.add(option3);
         mapContainer.innerHTML = center
     } else if (select.value === 'kamianske') {
-        var option1 = new Option('Street. Lyubavichskogo Rebe (Arsenicheva) 3 office 5', '3');
-        var option2 = new Option('3 microdistrict Heroiv 42-82 (TC Dolya)', '4');
-        var option3 = new Option('11 microdistrict Avenue Heroiv ATO, 2', '5');
-        var option4 = new Option('10 microdistrict (new class) Avenue Peremohy, 57', '6');
+        var option1 = new Option('вул. Любавичского Ребе (Арсенічева) 3 каб.5', '3');
+        option1.setAttribute('data-key', 'lub');
+        var option2 = new Option('3 мікрорайон Героїв 42-82 (ТЦ Доля)', '4');
+        option2.setAttribute('data-key', 'dolya');
+        var option3 = new Option('11 мікрорайон проспект Героїв АТО, 2', '5');
+        option3.setAttribute('data-key', 'ato');
+        var option4 = new Option('10 мікрорайон (новий клас) проспект Перемоги, 57', '6');
+        option4.setAttribute('data-key', 'per');
         subSelect.add(option1);
         subSelect.add(option2);
         subSelect.add(option3);
