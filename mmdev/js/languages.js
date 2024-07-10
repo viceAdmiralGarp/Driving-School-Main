@@ -8,7 +8,7 @@ const translations = {
         contacts: "Contacts",
         comments: "Comments",
         language: "Language",
-        hero_text: "One click and<br>the car license<br>are in your pocket",
+        hero_text: "One click <br>and you are<br>a driving school student!",
         button_sing_up: "Sign up for a course",
         q_i: "Qualified instructors",
         f_t_s: "Flexible training schedule",
@@ -17,7 +17,7 @@ const translations = {
         m_v_f: "Modernized vehicle fleet",
         c_p: "Competitive prices",
         about_us_main_text: "About <span class='blue'>Us</span>",
-        about_us_sub_text1: "<br><br>We are glad to welcome you to the website of the driving school in Dnipro <span class=\"blue\">“Grand”</span>.\n" +
+        about_us_sub_text1: "<br><br>We are glad to welcome you to the website of the driving school <span class=\"blue\">“Grand”</span>.\n" +
             "                    <br><br>With us you will learn how to <span class=\"blue\">efficiently drive</span> a car with a\n" +
             "                    manual or\n" +
             "                    automatic transmission.\n" +
@@ -67,15 +67,15 @@ const translations = {
     },
     ru: {
         about_us: "О нас",
-        sing_up: "Зарегистрироваться",
+        sing_up: "Запись в автошколу",
         price: "Цена",
         cars: "Автопарк",
         location: "Филиалы",
         contacts: "Контакты",
         comments: "Комментарии",
         language: "Язык",
-        hero_text: "Один клик и<br>автомобильные права<br>у тебя в кармане",
-        button_sing_up: "Запишитесь на курс",
+        hero_text: "Один клик <br>и ты ученик<br>Автошколы!",
+        button_sing_up: "Запись в автошколу",
         q_i: "Опытные инструкторы",
         f_t_s: "Гибкий график обучения",
         h_f_e: "Помощь с экзаменами",
@@ -83,7 +83,7 @@ const translations = {
         m_v_f: "Современный автопарк",
         c_p: "Конкурентные цены",
         about_us_main_text: "О <span class='blue'>Нас</span>",
-        about_us_sub_text1: "<br><br>Рады приветствовать Вас на сайте автошколы в Днепре <span class=\"blue\">\"Гранд\"</span>.\n" +
+        about_us_sub_text1: "<br><br>Рады приветствовать Вас на сайте автошколы <span class=\"blue\">\"Гранд\"</span>.\n" +
             " <br><br>С нами вы научитесь <span class=\"blue\">эффективно управлять</span> автомобилем с\n" +
             " механической или\n" +
             " автоматической коробкой передач.\n" +
@@ -136,8 +136,8 @@ const translations = {
         contacts: "Контакти",
         comments: "Коментарі",
         language: "Мова",
-        hero_text: "Один клік і<br>водійські  права<br>у твоїй  кишені",
-        button_sing_up: "Запишіться на курс",
+        hero_text: "Один клік <br>і ти учень<br>Автошколи!",
+        button_sing_up: "Запис в автошколу",
         q_i: "Кваліфіковані інструктори",
         f_t_s: "Гнучкий графік навчання",
         h_f_e: "Допомога з іспитіами",
@@ -145,7 +145,7 @@ const translations = {
         m_v_f: "Модернізований автопарк",
         c_p: "Конкурентні ціни",
         about_us_main_text: "Про <span class='blue'>Нас</span>",
-        about_us_sub_text1: "<br><br>Ради вітати Вас на сайті автошколи Дніпра <span class=\"blue\">«Гранд»</span>.\n" +
+        about_us_sub_text1: "<br><br>Ради вітати Вас на сайті автошколи <span class=\"blue\">«Гранд»</span>.\n" +
             " <br><br>З нами ви навчитеся <span class=\"blue\">ефективно керувати</span> автомобілем з\n" +
             " механічною або\n" +
             " автоматичною коробкою передач.\n" +
@@ -180,7 +180,7 @@ const translations = {
         submit: "Відправити",
         notification:"Сповіщення",
         message:"Ви вже залишили максимальну кількість коментарів",
-        reg:"Записатися на курс",
+        reg:"Запис в автошколу",
         fullname:"Прізвище та ім'я",
         phone:"Номер телефона",
         desc_cont:"Детальну інформацію про курси графіки, можливості навчання та набір графіків в автошколі можна отримати за телефонами:",
