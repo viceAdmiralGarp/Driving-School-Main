@@ -208,11 +208,15 @@ const translations = {
     }
 }
 
+window.myTranslations = translations;
+
 function changeLanguage(language) {
+    localStorage.setItem('language', language)
     document.querySelectorAll('[data-key]').forEach(element => {
         const key = element.getAttribute('data-key');
         element.innerHTML = translations[language][key];
     });
 }
 
+localStorage.setItem('language', 'ua')
 changeLanguage('ua')
