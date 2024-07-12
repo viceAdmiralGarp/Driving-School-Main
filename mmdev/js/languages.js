@@ -25,9 +25,7 @@ const translations = {
             "                    and\n" +
             "                    obtain\n" +
             "                    licenses of categories <span class=\"blue\">A,\n" +
-            "            B, C, D, E</span>. Driving courses are held in the city center and on the left bank within walking distance\n" +
-            "                    from\n" +
-            "                    any transport.\n" +
+            "            B, C, D, E</span>. Our classes are held in the cities of <span class=\"blue\">Dnipro, Kamensk, Yellow Waters, Sofiivka, Verkhnyodniprovsk.</span>\n" +
             "                    <br><br>You can also choose a convenient time to attend theoretical classes at our <span\n" +
             "                            class=\"blue\">driving school</span>.",
         categories: "CATEGORIES",
@@ -97,9 +95,9 @@ const translations = {
             " и\n" +
             " получать\n" +
             " лицензии категорий <span class=\"blue\">А,\n" +
-            " Б, В, Г, Е</span>. Курсы вождения проводятся в центре города и на левом берегу в шаговой доступности.\n" +
-            " от\n" +
-            " любого транспорта.\n",
+            " Б, В, Г, Е</span>. Наши занятия проходят в городах  <span class=\"blue\">Днепр, Каменское, Желтые Воды, Софиевка, Верхнеднепровск.</span>\n" +
+            " <br><br>Вы также можете выбрать удобное время для посещения теоретических занятий в нашей <span\n" +
+            " class=\"blue\">автошколе</span>.",
         categories: "КАТЕГОРИИ",
         price_k: "ЦЕНА",
         a1_r:"A1 (Переподг.)",
@@ -165,9 +163,9 @@ const translations = {
             " і\n" +
             " отримати\n" +
             " ліцензії категорії <span class=\"blue\">A,\n" +
-            " B, C, D, E</span>. Курси водіння проходять в центрі міста та на лівому березі в пішій доступності\n" +
-            " від\n" +
-            " будь-якого транспорту.",
+            " B, C, D, E</span>.Наші заняття проходять у містах <span class=\"blue\">Дніпро, Каменськ, Жовті Води, Софіївка, Верхньодніпровськ.</span>\n" +
+            " <br><br>Ви також можете обрати зручний час для відвідування теоретичних занять в нашій <span\n" +
+            " class=\"blue\">автошколі</span>.",
         categories: "КАТЕГОРІЇ",
         price_k: "ЦІНА",
         a1_r:"A1 (Перепідг.)",
