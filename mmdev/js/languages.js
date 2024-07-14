@@ -16,17 +16,19 @@ const translations = {
         m_e_m: "Modern educational materials",
         m_v_f: "Modernized vehicle fleet",
         c_p: "Competitive prices",
-        about_us_main_text: "About <span class='blue'>Us</span>",
-        about_us_sub_text1: "<br><br>The driving school <span class='blue'>Grand</span> is the most reliable and modern accredited driving school in the cities: <span class='blue'>Dnipro, Kamianske, Zhovti Vody, Verkhniodniprovsk</span>. Low prices, quality driving instruction in the city center, on both the right and left banks. Training for categories <span class='blue'>A1, A, B1, B, C1, C, D1, D, BE, C1E, CE.</span>\n" +
-            "<br><br> <span class='blue'>Our main advantages:</span>\n" +
+        about_us_main_text: "Yes, this is about our <span class='blue'>driving school!</span>",
+        about_us_sub_text0:"Driving School <span class='blue'>Grand</span> — the most reliable and modern accredited driving school in the cities of <span class='blue'>Dnipro, Kamyanske, Zhytomyr, Verkhniodniprovsk</span>. Low prices, quality driver training in the city center, on the right and left banks. Training for driving licenses in categories <span class='blue'>A1, A, B1, B, C1, C, D1, D, BE, C1E, CE.</span>\n" +
             "\n" +
-            "<li> Refurbished and certified training vehicles of the enterprise.\n" +
-            "<li><span class='blue'>Certified instructors</span> for theoretical and practical training.\n" +
-            "<li>Training duration from <span class='blue'>1.5</span> months.\n" +
-            "<li> Classes equipped for groups of at least <span class='blue'>5</span> people.\n" +
-            "<li>Availability of online groups for distance learning of <span class='blue'>Traffic Rules</span>, on <span class='blue'>PC</span> or smartphone.\n" +
-            "<li> Driving on <span class='blue'>MT</span> and <span class='blue'>AT</span> (manual and automatic transmission), taking the exam at <span class='blue'>TSC</span> in this vehicle.\n" +
-            "<br><br><span class='blue'>These are the additional services we offer:</span>\n" +
+            "<br><br> <span class='blue'>Our main advantages:</span>\n" +
+            "<ul>\n" +
+            "    <li>Re-equipped and certified training vehicles.\n" +
+            "    <li><span class='blue'>Certified instructors</span> for theoretical and practical training.\n" +
+            "    <li>Training duration from <span class='blue'>1.5</span> months.\n" +
+            "    <li>Classes equipped for groups starting from <span class='blue'>5</span> people.\n" +
+            "    <li>Online groups available for distance learning of <span class='blue'>Traffic Rules</span> on <span class='blue'>PC</span> or smartphone.\n" +
+            "    <li>Driving on <span class='blue'>MT</span> and <span class='blue'>AT</span> (manual and automatic transmission), taking the exam at <span class='blue'>DTC</span> in this vehicle!\n" +
+            "</ul>",
+        about_us_sub_text1: "<br><br><span class='blue'>These are the additional services we offer:</span>\n" +
             "<br>In our driving school, persons with disabilities can receive a full package of services for theoretical and practical training. Theory can be studied in two formats - <span class='blue'>offline and online</span>. Registration in the <span class='blue'>Ministry of Internal Affairs</span> database from the first day of training. Practical training and registration in the <span class='blue'>Ministry of Internal Affairs</span> database begin after successfully passing the theoretical exam at the <span class='blue'>TSC.</span>\n" +
             "Practical classes are held according to an individual convenient schedule, using certified and modern training vehicles with automatic transmission. After passing the practical exam at the <span class='blue'>TSC</span>, you receive a driver's license.\n" +
             "<br>A total of <span class='blue'>11</span> weeks are allocated for training future drivers with disabilities, of which <span class='blue'>5</span> weeks are for theory and <span class='blue'>6</span> for practice.\n" +
@@ -82,6 +84,7 @@ const translations = {
         dolya:'3 microdistrict Heroiv 42-82 (TC Dolya)',
         ato:'11 microdistrict Avenue Heroiv ATO, 2',
         per:'10 microdistrict (new class) Avenue Peremohy, 57',
+        readmore:'Read more...'
 
     },
     ru: {
@@ -101,17 +104,19 @@ const translations = {
         m_e_m: "Актуальные материалы",
         m_v_f: "Современный автопарк",
         c_p: "Конкурентные цены",
-        about_us_main_text: "О <span class='blue'>Нас</span>",
-        about_us_sub_text1: "<br><br>Автошкола <span class='blue'>Гранд</span> — самая надежная и современная аккредитованная автошкола в городах: <span class='blue'>Днепр, Каменское, Жёлтые Воды, Верхнеднепровск</span>. Низкие цены, качественное обучение вождению автомобиля в центре города, на правом и левом берегу. Обучение вождению на категории <span class='blue'>А1, А, В1, В, С1, С, Д1, Д, ВЕ, С1Е, СЕ.</span>\n" +
-            "<br><br> <span class='blue'>Наши основные преимущества:</span>\n" +
+        about_us_main_text: "Да, это про нашу <span class='blue'>Автошколу!</span>",
+        about_us_sub_text0:"Автошкола <span class='blue'>Гранд</span> — самая надежная и современная аккредитованная автошкола в городах: <span class='blue'>Днепр, Каменское, Жёлтые Воды, Верхнеднепровск</span>. Низкие цены, качественное обучение вождению автомобиля в центре города, на правом и левом берегу. Обучение вождению на категории <span class='blue'>А1, А, В1, В, С1, С, Д1, Д, ВЕ, С1Е, СЕ.</span>\n" +
             "\n" +
-            "<li> Переоборудованный и сертифицированный учебный транспорт предприятия.\n" +
-            "<li><span class='blue'>Аттестованные преподаватели</span> теоретического и практического обучения.\n" +
-            "<li>Срок обучения от <span class='blue'>1.5</span> месяцев.\n" +
-            "<li> Обучение в оборудованных классах от <span class='blue'>5</span> человек.\n" +
-            "<li>Наличие групп онлайн для дистанционного обучения <span class='blue'>ПДД</span>, на <span class='blue'>ПК</span> или смартфоне.\n" +
-            "<li> Вождение на <span class='blue'>МКП</span> и <span class='blue'>АКП</span> (механическая и автоматическая коробка передач), сдача экзамена в <span class='blue'>ТСЦ</span> на этом автомобиле.\n" +
-            "<br><br><span class='blue'>Это дополнительные услуги, которые мы предлагаем:</span>\n" +
+            "<br><br> <span class='blue'>Наши основные преимущества:</span>\n" +
+            "<ul>\n" +
+            "    <li> Переоборудованный и сертифицированный учебный транспорт Підприємства.\n" +
+            "    <li><span class='blue'>Аттестованные преподаватели</span> теоретического и практического обучения.\n" +
+            "    <li>Срок обучения от <span class='blue'>1.5</span> месяцев.\n" +
+            "    <li> Обучение в оборудованных классах от <span class='blue'>5</span> человек.\n" +
+            "    <li>Наличие групп онлайн для дистанционного обучения <span class='blue'>ПДР</span>, на <span class='blue'>ПК</span> или смартфоне.\n" +
+            "    <li> Вождение на <span class='blue'>МКП</span> и <span class='blue'>АКП</span> (механическая и автоматическая коробка передач), сдача экзамена в <span class='blue'>ТСЦ</span> на этом авто!\n" +
+            "</ul>",
+        about_us_sub_text1: "<br><br><span class='blue'>Это дополнительные услуги, которые мы предлагаем:</span>\n" +
             "<br>В нашей автошколе лица с инвалидностью могут получить полный пакет услуг по теоретическому и практическому обучению. Изучение теории доступно в двух форматах - <span class='blue'>офлайн и онлайн</span>. Регистрация в базе <span class='blue'>МВД</span> с первого дня обучения. Практическое обучение и регистрация в базе <span class='blue'>МВД</span> начинаются после успешной сдачи теоретического экзамена в <span class='blue'>ТСЦ.</span>\n" +
             "Практические занятия проходят по индивидуальному удобному графику, на сертифицированных и современных учебных автомобилях с автоматической коробкой передач. После сдачи практического экзамена в <span class='blue'>ТСЦ</span> вы получаете удостоверение водителя.\n" +
             "<br>Всего на обучение будущих водителей с инвалидностью выделяют <span class='blue'>11</span> недель, из которых <span class='blue'>5</span> недель теории и <span class='blue'>6</span> – практики.\n" +
@@ -165,6 +170,7 @@ const translations = {
         dolya:'3 микрорайон Героев 42-82 (ТЦ Доля)',
         ato:'микрорайон проспект Героев АТО, 2',
         per:'10 микрорайон (новый класс) проспект Победы, 57',
+        readmore:'Читать подробнее...'
 
     },
     ua: {
@@ -184,16 +190,24 @@ const translations = {
         m_e_m: "Сучасні матеріали",
         m_v_f: "Модернізований автопарк",
         c_p: "Конкурентні ціни",
-        about_us_main_text: "Так це про нашу <span class='blue'>автошколу:</span>",
-        about_us_sub_text1: "<br><br>Автошкола  <span class='blue'>Гранд</span> — найнадійніша та найсучасніша акредитована автошкола у містах:  <span class='blue'>Дніпро, Кам'янське, Жовті Води, Верхньодніпровськ</span>. Низькі ціни, якісне навчання водінню автомобілем у центрі міста, на правому та лівому березі. Навчання водінню на категорії  <span class='blue'>А1, А, В1, В, С1, С, Д1, Д, ВЕ, С1Е, СЕ.</span>\n" +
-            "<br><br> <span class='blue'>Наші основні переваги:</span>\n" +
-            "<li> Переобладнаний та сертифікований навчальний транспорт Підприємства.\n" +
-            "<li><span class='blue'>Атестовані викладачі</span> теоретичного та практичного навчання.\n" +
-            "<li>Термін навчання від <span class='blue'>1.5</span> місяців.\n" +
-            "<li> Навчання в обладнаних класах від <span class='blue'>5</span> осіб.\n" +
-            "<li>Наявність груп онлайн для дистанційного навчання <span class='blue'>ПДР</span>, на <span class='blue'>ПК</span> або смартфоні.\n" +
-            "<li> Водіння на <span class='blue'>МКП</span> та <span class='blue'>АКП</span> (механічна і автоматична коробка передач), складання іспиту в <span class='blue'>ТСЦ</span>на цьому авто!." +
-            "<br><br><span class='blue'>Це доп послуги які ми пропонуємо:</span>\n" +
+        about_us_main_text: "Так, це про нашу <span class='blue'>автошколу!</span>",
+        about_us_sub_text0:"Автошкола <span class='blue'>Гранд</span> — найнадійніша та найсучасніша акредитована\n" +
+            "                        автошкола у містах: <span class='blue'>Дніпро, Кам'янське, Жовті Води, Верхньодніпровськ</span>.\n" +
+            "                        Низькі ціни, якісне навчання водінню автомобілем у центрі міста, на правому та лівому березі.\n" +
+            "                        Навчання водінню на категорії <span class='blue'>А1, А, В1, В, С1, С, Д1, Д, ВЕ, С1Е, СЕ.</span>\n" +
+            "                        <br><br> <span class='blue'>Наші основні переваги:</span>\n" +
+            "                        <ul>\n" +
+            "                            <li> Переобладнаний та сертифікований навчальний транспорт Підприємства.\n" +
+            "                            <li><span class='blue'>Атестовані викладачі</span> теоретичного та практичного навчання.\n" +
+            "                            <li>Термін навчання від <span class='blue'>1.5</span> місяців.\n" +
+            "                            <li> Навчання в обладнаних класах від <span class='blue'>5</span> осіб.\n" +
+            "                            <li>Наявність груп онлайн для дистанційного навчання <span class='blue'>ПДР</span>, на <span\n" +
+            "                                    class='blue'>ПК</span> або смартфоні.\n" +
+            "                            <li> Водіння на <span class='blue'>МКП</span> та <span class='blue'>АКП</span> (механічна і\n" +
+            "                                автоматична коробка передач), складання іспиту в <span class='blue'>ТСЦ</span>на цьому\n" +
+            "                                авто!.\n" +
+            "                        </ul>",
+        about_us_sub_text1: "<br><br><span class='blue'>Це доп послуги які ми пропонуємо:</span>\n" +
             "<br>В нашій Автошколі особи з інвалідністю можуть отримати повний пакет послуг з теоретичного та практичного навчання.\n" +
             "Вивчення теорії доступно в двох форматах - <span class='blue'>офлайн та онлайн</span>. Реєстрація в базі <span class='blue'>МВД</span> з першого дня навчання.\n" +
             "Практичне навчання та реєстрація в базі <span class='blue'>МВД</span>, починається після успішного складання теоретичного іспиту в <span class='blue'>ТСЦ.</span> \n" +
@@ -203,7 +217,7 @@ const translations = {
             "Усього на навчання майбутніх водіїв з інвалідністю виділяють  <span class='blue'>11</span> тижнів, з яких  <span class='blue'>5</span> тижнів теорія, та  <span class='blue'>6</span> – практика." +
             "<br><br>Динамічна їзда та паркування в умовах сучасного міста!\n" +
             "Керуй впевнено, паркуюся швидко!\n" +
-            "<br><br><span class='blue'>В програмі навчання:</span>\n" +
+            "<br><br><span class='blue text-center'>В програмі навчання:</span>\n" +
             "<li> швидкий, безпечний, та правильний проїзд нерегульованих великих перехресть;</li>\n" +
             " <li>паркування в центрі міста;</li>\n" +
             " <li>паркування біля торгових центрів</li>\n" +
@@ -251,6 +265,7 @@ const translations = {
         dolya:'3 мікрорайон Героїв 42-82 (ТЦ Доля)',
         ato:'11 мікрорайон проспект Героїв АТО, 2',
         per:'10 мікрорайон (новий клас) проспект Перемоги, 57',
+        readmore:'Читати детальніше'
     }
 }
 

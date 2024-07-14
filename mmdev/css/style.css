@@ -136,8 +136,9 @@ body {
 
 .text-about-us {
     font-family: 'Saira Condensed', sans-serif;
-    font-size: 25px;
+    font-size: 23px;
 }
+
 
 .blue {
     color: #1192D7;
@@ -156,6 +157,13 @@ body {
     border-radius: 40px;
 }
 
+.read-more-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 /* ABOUT US*/
 
 
@@ -168,6 +176,25 @@ body {
     text-decoration: underline;
     color: #1192D7;
 }
+
+#read-more__toggle {
+    display: none;
+}
+
+.read-more__title {
+    cursor: pointer;
+    color: rgb(2, 112, 148);
+    text-decoration: underline;
+}
+
+.read-more__content {
+    display: none;
+}
+
+#read-more__toggle:checked ~ .read-more__content {
+    display: block;
+}
+
 
 .category-section {
     width: 250px;
