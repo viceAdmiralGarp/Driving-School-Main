@@ -21,16 +21,17 @@ const translations = {
             "\n" +
             "<br><br> <span class='blue'>Our main advantages:</span>\n" +
             "<ul>\n" +
-            "    <li>Re-equipped and certified training vehicles.\n" +
-            "    <li><span class='blue'>Certified instructors</span> for theoretical and practical training.\n" +
-            "    <li>Training duration from <span class='blue'>1.5</span> months.\n" +
-            "    <li>Classes equipped for groups starting from <span class='blue'>5</span> people.\n" +
-            "    <li>Online groups available for distance learning of <span class='blue'>Traffic Rules</span> on <span class='blue'>PC</span> or smartphone.\n" +
-            "    <li>Driving on <span class='blue'>MT</span> and <span class='blue'>AT</span> (manual and automatic transmission), taking the exam at <span class='blue'>DTC</span> in this vehicle!\n" +
+            "    <li>Re-equipped and certified training vehicles.</li>\n" +
+            "    <li><span class='blue'>Certified instructors</span> for theoretical and practical training.</li>\n" +
+            "    <li>Training duration from <span class='blue'>1.5</span> months.</li>\n" +
+            "    <li>Classes equipped for groups starting from <span class='blue'>5</span> people.</li>\n" +
+            "    <li>Online groups available for distance learning of <span class='blue'>Traffic Rules</span> on <span class='blue'>PC</span> or smartphone.</li>\n" +
+            "    <li>Driving on <span class='blue'>MT</span> and <span class='blue'>AT</span> (manual and automatic transmission), taking the exam at <span class='blue'>DTC</span> in this vehicle!</li>\n" +
+            "<li>In our driving school, persons with disabilities can receive a full package of services for theoretical and practical training.</li>\n" +
             "</ul>",
         about_us_sub_text1: "<br><br><span class='blue'>These are the additional services we offer:</span>\n" +
-            "<br>In our driving school, persons with disabilities can receive a full package of services for theoretical and practical training. Theory can be studied in two formats - <span class='blue'>offline and online</span>. Registration in the <span class='blue'>Ministry of Internal Affairs</span> database from the first day of training. Practical training and registration in the <span class='blue'>Ministry of Internal Affairs</span> database begin after successfully passing the theoretical exam at the <span class='blue'>TSC.</span>\n" +
-            "Practical classes are held according to an individual convenient schedule, using certified and modern training vehicles with automatic transmission. After passing the practical exam at the <span class='blue'>TSC</span>, you receive a driver's license.\n" +
+            "Theory can be studied in two formats - <span class='blue'>offline and online</span>. Registration in the <span class='blue'>Ministry of Internal Affairs</span> database from the first day of training. Practical training and registration in the <span class='blue'>Ministry of Internal Affairs</span> database begin after successfully passing the theoretical exam at the <span class='blue'>TSC.</span>\n" +
+            "Practical classes are held according to an individual convenient schedule, using certified and modern training vehicles with automatic transmission. After passing the practical exam at the <span class='blue'>TSC</span>, you receive a driver's license."+
             "<br>A total of <span class='blue'>11</span> weeks are allocated for training future drivers with disabilities, of which <span class='blue'>5</span> weeks are for theory and <span class='blue'>6</span> for practice.\n" +
             "<br><br>Dynamic driving and parking in a modern city! \n" +
             "Drive confidently, park quickly!\n" +
@@ -109,15 +110,16 @@ const translations = {
             "\n" +
             "<br><br> <span class='blue'>Наши основные преимущества:</span>\n" +
             "<ul>\n" +
-            "    <li> Переоборудованный и сертифицированный учебный транспорт Підприємства.\n" +
-            "    <li><span class='blue'>Аттестованные преподаватели</span> теоретического и практического обучения.\n" +
-            "    <li>Срок обучения от <span class='blue'>1.5</span> месяцев.\n" +
-            "    <li> Обучение в оборудованных классах от <span class='blue'>5</span> человек.\n" +
-            "    <li>Наличие групп онлайн для дистанционного обучения <span class='blue'>ПДР</span>, на <span class='blue'>ПК</span> или смартфоне.\n" +
-            "    <li> Вождение на <span class='blue'>МКП</span> и <span class='blue'>АКП</span> (механическая и автоматическая коробка передач), сдача экзамена в <span class='blue'>ТСЦ</span> на этом авто!\n" +
+            "    <li> Переоборудованный и сертифицированный учебный транспорт Підприємства.</li>\n" +
+            "    <li><span class='blue'>Аттестованные преподаватели</span> теоретического и практического обучения.</li>\n" +
+            "    <li>Срок обучения от <span class='blue'>1.5</span> месяцев.</li>\n" +
+            "    <li> Обучение в оборудованных классах от <span class='blue'>5</span> человек.</li>\n" +
+            "    <li>Наличие групп онлайн для дистанционного обучения <span class='blue'>ПДР</span>, на <span class='blue'>ПК</span> или смартфоне.</li>\n" +
+            "    <li> Вождение на <span class='blue'>МКП</span> и <span class='blue'>АКП</span> (механическая и автоматическая коробка передач), сдача экзамена в <span class='blue'>ТСЦ</span> на этом авто!</li>\n" +
+            "    <li> В нашей автошколе лица с инвалидностью могут получить полный пакет услуг по теоретическому и практическому обучению.</li>\n" +
             "</ul>",
         about_us_sub_text1: "<br><br><span class='blue'>Это дополнительные услуги, которые мы предлагаем:</span>\n" +
-            "<br>В нашей автошколе лица с инвалидностью могут получить полный пакет услуг по теоретическому и практическому обучению. Изучение теории доступно в двух форматах - <span class='blue'>офлайн и онлайн</span>. Регистрация в базе <span class='blue'>МВД</span> с первого дня обучения. Практическое обучение и регистрация в базе <span class='blue'>МВД</span> начинаются после успешной сдачи теоретического экзамена в <span class='blue'>ТСЦ.</span>\n" +
+            "Изучение теории доступно в двух форматах - <span class='blue'>офлайн и онлайн</span>. Регистрация в базе <span class='blue'>МВД</span> с первого дня обучения. Практическое обучение и регистрация в базе <span class='blue'>МВД</span> начинаются после успешной сдачи теоретического экзамена в <span class='blue'>ТСЦ.</span>\n" +
             "Практические занятия проходят по индивидуальному удобному графику, на сертифицированных и современных учебных автомобилях с автоматической коробкой передач. После сдачи практического экзамена в <span class='blue'>ТСЦ</span> вы получаете удостоверение водителя.\n" +
             "<br>Всего на обучение будущих водителей с инвалидностью выделяют <span class='blue'>11</span> недель, из которых <span class='blue'>5</span> недель теории и <span class='blue'>6</span> – практики.\n" +
             "<br><br>Динамичное вождение и парковка в условиях современного города! \n" +
@@ -197,19 +199,19 @@ const translations = {
             "                        Навчання водінню на категорії <span class='blue'>А1, А, В1, В, С1, С, Д1, Д, ВЕ, С1Е, СЕ.</span>\n" +
             "                        <br><br> <span class='blue'>Наші основні переваги:</span>\n" +
             "                        <ul>\n" +
-            "                            <li> Переобладнаний та сертифікований навчальний транспорт Підприємства.\n" +
+            "                            <li> Переобладнаний та сертифікований навчальний транспорт Підприємства.</li>\n" +
             "                            <li><span class='blue'>Атестовані викладачі</span> теоретичного та практичного навчання.\n" +
-            "                            <li>Термін навчання від <span class='blue'>1.5</span> місяців.\n" +
-            "                            <li> Навчання в обладнаних класах від <span class='blue'>5</span> осіб.\n" +
+            "                            <li>Термін навчання від <span class='blue'>1.5</span> місяців.</li>\n" +
+            "                            <li> Навчання в обладнаних класах від <span class='blue'>5</span> осіб.</li>\n" +
             "                            <li>Наявність груп онлайн для дистанційного навчання <span class='blue'>ПДР</span>, на <span\n" +
-            "                                    class='blue'>ПК</span> або смартфоні.\n" +
+            "                                    class='blue'>ПК</span> або смартфоні.</li>\n" +
             "                            <li> Водіння на <span class='blue'>МКП</span> та <span class='blue'>АКП</span> (механічна і\n" +
-            "                                автоматична коробка передач), складання іспиту в <span class='blue'>ТСЦ</span>на цьому\n" +
+            "                                автоматична коробка передач), складання іспиту в <span class='blue'>ТСЦ</span>на цьому</li>\n" +
             "                                авто!.\n" +
+            "<li>В нашій Автошколі особи з інвалідністю можуть отримати повний пакет послуг з теоретичного та практичного навчання.</li>\n" +
             "                        </ul>",
         about_us_sub_text1: "<br><br><span class='blue'>Це доп послуги які ми пропонуємо:</span>\n" +
-            "<br>В нашій Автошколі особи з інвалідністю можуть отримати повний пакет послуг з теоретичного та практичного навчання.\n" +
-            "Вивчення теорії доступно в двох форматах - <span class='blue'>офлайн та онлайн</span>. Реєстрація в базі <span class='blue'>МВД</span> з першого дня навчання.\n" +
+            "<br>Вивчення теорії доступно в двох форматах - <span class='blue'>офлайн та онлайн</span>. Реєстрація в базі <span class='blue'>МВД</span> з першого дня навчання.\n" +
             "Практичне навчання та реєстрація в базі <span class='blue'>МВД</span>, починається після успішного складання теоретичного іспиту в <span class='blue'>ТСЦ.</span> \n" +
             "Практичні заняття проходять по індивідуальному зручному графіку, на сертифікованих та сучасних учбових автомобілях з автоматичною коробкою передач.\n" +
             "Після складання практичного іспиту в <span class='blue'>ТСЦ</span>,  Ви отримуєте посвідчення водія.\n" +
