@@ -27,7 +27,8 @@ const translations = {
             "    <li>Classes equipped for groups starting from <span class='blue'>5</span> people.</li>\n" +
             "    <li>Online groups available for distance learning of <span class='blue'>Traffic Rules</span> on <span class='blue'>PC</span> or smartphone.</li>\n" +
             "    <li>Driving on <span class='blue'>MT</span> and <span class='blue'>AT</span> (manual and automatic transmission), taking the exam at <span class='blue'>DTC</span> in this vehicle!</li>\n" +
-            "<li>In our driving school, persons with disabilities can receive a full package of services for theoretical and practical training.</li>\n" +
+            "    <li>In our driving school, <span class='blue'>persons with disabilities</span> can receive a full package of services for theoretical and practical training.</li>\n" +
+            "    <li> <span class='blue'>The author's program</span> for teaching dynamic driving and parking in the conditions of a modern metropolis.</li>\n" +
             "</ul>",
         about_us_sub_text1: "<br><br><span class='blue'>These are the additional services we offer:</span>\n" +
             "Theory can be studied in two formats - <span class='blue'>offline and online</span>. Registration in the <span class='blue'>Ministry of Internal Affairs</span> database from the first day of training. Practical training and registration in the <span class='blue'>Ministry of Internal Affairs</span> database begin after successfully passing the theoretical exam at the <span class='blue'>TSC.</span>\n" +
@@ -116,7 +117,8 @@ const translations = {
             "    <li> Обучение в оборудованных классах от <span class='blue'>5</span> человек.</li>\n" +
             "    <li>Наличие групп онлайн для дистанционного обучения <span class='blue'>ПДР</span>, на <span class='blue'>ПК</span> или смартфоне.</li>\n" +
             "    <li> Вождение на <span class='blue'>МКП</span> и <span class='blue'>АКП</span> (механическая и автоматическая коробка передач), сдача экзамена в <span class='blue'>ТСЦ</span> на этом авто!</li>\n" +
-            "    <li> В нашей автошколе лица с инвалидностью могут получить полный пакет услуг по теоретическому и практическому обучению.</li>\n" +
+            "    <li> В нашей автошколе <span class='blue'>лица с инвалидностью</span> могут получить полный пакет услуг по теоретическому и практическому обучению.</li>\n" +
+            "    <li><span class='blue'>Авторская программа </span> для обучения динамичной езде и парковке в условиях современного мегаполиса. </li>\n" +
             "</ul>",
         about_us_sub_text1: "<br><br><span class='blue'>Это дополнительные услуги, которые мы предлагаем:</span>\n" +
             "Изучение теории доступно в двух форматах - <span class='blue'>офлайн и онлайн</span>. Регистрация в базе <span class='blue'>МВД</span> с первого дня обучения. Практическое обучение и регистрация в базе <span class='blue'>МВД</span> начинаются после успешной сдачи теоретического экзамена в <span class='blue'>ТСЦ.</span>\n" +
@@ -208,7 +210,8 @@ const translations = {
             "                            <li> Водіння на <span class='blue'>МКП</span> та <span class='blue'>АКП</span> (механічна і\n" +
             "                                автоматична коробка передач), складання іспиту в <span class='blue'>ТСЦ</span>на цьому</li>\n" +
             "                                авто!.\n" +
-            "<li>В нашій Автошколі особи з інвалідністю можуть отримати повний пакет послуг з теоретичного та практичного навчання.</li>\n" +
+            "<li>В нашій Автошколі <span class='blue'>особи з інвалідністю</span> можуть отримати повний пакет послуг з теоретичного та практичного навчання.</li>\n" +
+            "<li><span class='blue'>Авторська програма</span> для навчання динамічній їзді та паркуванню в умовах сучасного мегаполісу.</li>\n" +
             "                        </ul>",
         about_us_sub_text1: "<br><br><span class='blue'>Це доп послуги які ми пропонуємо:</span>\n" +
             "<br>Вивчення теорії доступно в двох форматах - <span class='blue'>офлайн та онлайн</span>. Реєстрація в базі <span class='blue'>МВД</span> з першого дня навчання.\n" +
@@ -267,7 +270,7 @@ const translations = {
         dolya:'3 мікрорайон Героїв 42-82 (ТЦ Доля)',
         ato:'11 мікрорайон проспект Героїв АТО, 2',
         per:'10 мікрорайон (новий клас) проспект Перемоги, 57',
-        readmore:'Читати детальніше'
+        readmore:'Читати детальніше...'
     }
 }
 
