@@ -9,6 +9,11 @@ const heroes = `<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!
 const ato = `<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5277.54778980554!2d34.563351!3d48.595028!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbd73c66f566dd%3A0xaf412da86009a3d2!2z0L_RgNC-0YHQv9C10LrRgiDQk9C10YDQvtGX0LIg0JDQotCeLCAyLCDQmtCw0LzigJnRj9C90YHRjNC60LUsINCU0L3RltC_0YDQvtC_0LXRgtGA0L7QstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA1MTkzNw!5e0!3m2!1suk!2sua!4v1717000997280!5m2!1suk!2sua" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
 const peremoga =  `<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5277.487097881806!2d34.56045!3d48.595609!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbd73cbd201439%3A0x43a8ed2b8386e8f8!2z0L_RgNC-0YHQv9C10LrRgiDQn9C10YDQtdC80L7Qs9C4LCAxMCwg0JrQsNC84oCZ0Y_QvdGB0YzQutC1LCDQlNC90ZbQv9GA0L7Qv9C10YLRgNC-0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNTE5MDk!5e0!3m2!1suk!2sua!4v1717142131736!5m2!1suk!2sua" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
 
+//Verhodneprovsk
+const verhnodnepr = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2635.603031701841!2d34.34106539999999!3d48.6557089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40da2b5e519214a1%3A0x5dbe354c676b1982!2sVulytsya%20Shevchenka%2C%2011%2C%20Verkhn&#39;odniprovs&#39;k%2C%20Dnipropetrovs&#39;ka%20oblast%2C%2051600!5e0!3m2!1sen!2sua!4v1721762629515!5m2!1sen!2sua" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+
+//ZhovtiVodi
+const vodi = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2652.176910340485!2d33.5009081!3d48.3379048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40da58dc560a78c5%3A0x299327a7ab840ee6!2sVul.%20Haharina%2C%20Zhovti%20Vody%2C%20Dnipropetrovs&#39;ka%20oblast%2C%2052200!5e0!3m2!1sen!2sua!4v1721762733048!5m2!1sen!2sua" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
 var mapContainer = document.getElementById('map-container');
 mapContainer.innerHTML = center
 
@@ -44,6 +49,16 @@ function mainSelector(select) {
         subSelect.add(option3);
         subSelect.add(option4);
         mapContainer.innerHTML = arsenivecha
+    } else if (select.value === 'verhnodnepr') {
+        var option1 = new Option(window.myTranslations[language].verhnodneprAddr, '0');
+        option1.setAttribute('data-key', 'verhnodneprAddr');
+        subSelect.add(option1);
+        mapContainer.innerHTML = verhnodnepr
+    } else if (select.value === 'zhovti') {
+        var option1 = new Option(window.myTranslations[language].zhovtiAddr, '0');
+        option1.setAttribute('data-key', 'zhovtiAddr');
+        subSelect.add(option1);
+        mapContainer.innerHTML = vodi
     }
 }
 
